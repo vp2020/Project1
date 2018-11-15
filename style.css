@@ -1,0 +1,108 @@
+
+
+body{
+
+}
+
+
+#OrderNow{
+
+}
+
+#form{
+    background: url("bg1.jpeg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-content: center;
+}
+
+select {
+    font-family              : Tahoma,Geneva,sans-serif;
+    margin-left              : 93px;
+    position                 : relative;
+    background-color         : #8a7c7d;
+    border                   : 1px solid #ccc;
+    text-transform           : none;
+    text-decoration          : none;
+    color                    : rgb(15, 14, 14);
+    text-align-last          :left ;
+    width                    : 200px;
+    height                   : 30px;
+    font-size                : 20px;
+    font-weight              : 400;
+}
+
+#selectOption {
+    padding-top : 50px;
+}
+
+
+#second-div {
+    background: url("bg2.jpeg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    height          : 500px;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 60px;
+    animation-duration: 1.4s;
+    animation-name: changescale;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width:150px;
+    height:40px;
+    background-color: #131413;
+    color          : white;
+    border:0px;
+    border-radius: 40px;
+    font-size: 22px;
+}
+@keyframes changescale {
+    from {
+      transform: scale(1)
+    }
+  
+    to {
+     transform: scale(1.2)
+    }
+  }
+
+  /* Reset Select */
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50;
+    background-image: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 3;
+    background: #2c3e50;
+    overflow: hidden;
+    border-radius: .25em;
+  }
+  select {
+    width: 200px;
+    height: 50px;
+    margin: 0;
+    padding: 0 0 0 .5em;
+    color: #fff;
+    cursor: pointer;
+  }
+
+ 

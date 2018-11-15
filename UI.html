@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body background="backgroundImage.jpg" onload="init(); init1(); detectBrowser(); colorChange(0)" style="background-repeat: no-repeat; background-size: cover" onresize="dimensions()">
+<script src="dHTML.js"></script>
+<script src="ObjectData.js"></script>
+<script src="main1..js"></script>
+<script src="cookies.js"></script>
+<script src="browserDetection.js"></script>
+
+
+
+<div id="OrderNow" style="height: 100px;">
+</div>
+
+<div id="form" style="padding-bottom: 60px; width: 50%;" >
+    <h2>Personal Details</h2>
+    <form id="contact" action="" method="post" onsubmit="cookie1();">
+        <fieldset>
+            <input placeholder="Your name" id="name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Your Email Address" id="email" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+            <input placeholder="Your Phone Number" id="tel" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+            <textarea placeholder="Special Instructions...." id="instructions" tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+            <button name="submit" type="submit"  id="contact-submit">Submit</button>
+        </fieldset>
+    </form>
+</div>
+
+<div id="second-div">
+    <div id="selectOption">
+        <h1>Select Items:</h1>
+    </div>
+    <div id="displayResult"></div>
+</div>
+</body>
+</html>

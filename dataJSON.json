@@ -1,0 +1,72 @@
+{
+  "restaurant1": {
+    "Deserts": {
+      "Deserts":"Deserts"
+    },
+    "Veg": {
+      "VegPulao": "VegPulao",
+      "PalakPaneer": "PalakPaneer",
+      "PaneerButterMasala": "PaneerButterMasala"
+    },
+
+    "Chicken": {
+      "Tandoori": "Tandoori"
+    },
+    "Hot drinks": {
+      "Coffee": { "HotCoffee": "HotCoffee", "Medium": "Medium", "Others": { "Iris": "Iris", "Capuccino": "Capuccino" } },
+      "Tea": {"Red": "Red", "Black": "Black"},
+      "BadamMilk": "BadamMilk",
+      "Bornvita": "Bornvita",
+      "Milk": "Milk"
+    },
+    "Juice": {
+      "Mango": "Mango",
+      "Berry": "Berry",
+      "Grapes": "Grapes",
+      "Wine": {
+        "Rose": "Rose",
+        "Red wine": "Red",
+        "Apple": "Apple",
+        "Hard drinks": {
+          "Royal challenge": "Royal challenge",
+          "Blender's Pride": "Blender's Pride"
+        }
+      }
+    }
+  },
+  "Restaurant2": {
+    "Deserts1": {
+      "Deserts1":"Deserts1"
+    },
+    "Veg1": {
+      "VegPulao1": "VegPulao1",
+      "PalakPaneer1": "PalakPaneer1",
+      "PaneerButterMasala1": "PaneerButterMasala1"
+    },
+
+    "Chicken1": {
+      "Tandoori1": "Tandoori1"
+    },
+    "Hot drinks1": {
+      "Coffee1": { "HotCoffee1": "HotCoffee1", "Medium1": "Medium1", "Others1": { "Iris1": "Iris1", "Capuccino1": "Capuccino1" } },
+      "Tea1": {"Red1": "Red1", "Black1": "Black1"},
+      "BadamMilk1": "BadamMilk1",
+      "Bornvita1": "Bornvita1",
+      "Milk1": "Milk1"
+    },
+    "Juice1": {
+      "Mango1": "Mango1",
+      "Berry1": "Berry1",
+      "Grapes1": "Grapes1",
+      "Wine1": {
+        "Rose1": "Rose1",
+        "Redwine1": "RedWine1",
+        "Apple1": "Apple1",
+        "Hard drinks1": {
+          "Royal challenge1": "Royal challenge1",
+          "Blender's Pride1": "Blender's Pride1"
+        }
+      }
+    }
+  }
+}
